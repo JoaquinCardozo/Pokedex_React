@@ -1,7 +1,8 @@
-import React from 'react';
+import { useParams } from 'react-router-dom';
 
 const Pokemon = () => {
-	return <div>Pokemon</div>;	
+	const { name } = useParams();
+	return <div>{name}</div>;
 };
 
 export default Pokemon;

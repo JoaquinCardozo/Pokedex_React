@@ -9,3 +9,16 @@
 body {
   font-family: apple-system;
 }
+
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100wh;
+}
+
+.app main {
+  background-color: red;
+  padding: 10px;
+  height: 100%;
+  overflow: auto;
+}
