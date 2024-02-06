@@ -19,6 +19,7 @@ body {
 .app main {
   background-color: red;
   padding: 10px;
+  margin-bottom: 100px;
   height: 100%;
   overflow: auto;
 }
